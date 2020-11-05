@@ -1,0 +1,24 @@
+{
+  "name": "scaff-cli",
+  "version": "0.1.1",
+  "description": "Make your frequently used files or folder structure using file based templates.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwanduke/scaff-cli"
+  },
+  "bin": {
+    "scaff": "./bin/index.js"
+  },
+  "scripts": {
+    "link": "npm install -g ./",
+    "unlink": "npm uninstall -g ./"
+  },
+  "author": "gwanduke <gwanduke@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "inquirer": "^7.3.3"
+  }
+}
